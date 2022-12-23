@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+    <div class="top-content">
+        <img src="./img/LOGO@2x.png" alt="Volvo" class="logo">
+    </div>
+    <div class="top-header">
+        <img src="./img/Header Image@2x@2x.png" alt="">
+    </div>
+    <div class="top-text">
+        <p class="title">Dear Volvo Client</p>
+        <p class="bottom-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
+            <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
+            <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem
+            ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
+            <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
+            <br> Yours truly,<br> Volvo
+
+        </p>
+    </div>
+    <style>
+        body {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        
+        @font-face {
+            font-family: Volvo Novum Medium;
+            src: url('./VolvoNovum-Medium.otf');
+        }
+        
+        @font-face {
+            font-family: Volvo Novum Regular;
+            src: url('./VolvoNovum-Regular.otf');
+        }
+        
+        .top-content {
+            width: 70%;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+        }
+        
+        .top-content img {
+            width: 300px;
+        }
+        
+        .top-header {
+            width: 100%;
+            margin: auto;
+            text-align: center;
+        }
+        
+        .top-header img {
+            width: 50%;
+        }
+        
+        .top-text {
+            width: 45%;
+            margin: auto;
+        }
+        
+        .title {
+            color: #000000;
+            font-family: Volvo Novum Medium;
+            font-size: 25px;
+        }
+        
+        .bottom-text {
+            font-family: Volvo Novum Regular;
+        }
+        /* laptop */
+        
+        @media (max-width:1187px) {
+            .top-content img {
+                width: 200px;
+            }
+            .top-header img {
+                width: 60%;
+            }
+            .top-text {
+                width: 55%;
+            }
+        }
+        
+        @media (max-width:900px) {
+            .top-header img {
+                width: 70%;
+            }
+            .top-text {
+                width: 65%;
+            }
+        }
+        
+        @media (max-width:700px) {
+            .top-content {
+                max-height: 100px;
+            }
+            .top-header img {
+                width: 100%;
+            }
+            .top-text {
+                width: 90%;
+            }
+        }
+        /* Laptop */
+    </style>
+</body>
+
+</html>
